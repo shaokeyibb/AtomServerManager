@@ -1,0 +1,158 @@
+{
+  "application.tray.tooltip.title": "AtomServerManager - {0} 个服务器运行中",
+  "application.tray.tooltip.notification.minimize_to_tray": {
+    "title": "AtomServerManager 已最小化到托盘",
+    "message": "您可通过点击托盘图标来重新回到 AtomServerManager 主界面"
+  },
+  "application.main_window.main_view.title": "AtomServerManager - 主界面",
+  "application.language_change_dialog.title": "选择一个语言以继续",
+  "application.main_window.main_view.cpu_usage": "CPU 使用率:",
+  "application.main_window.main_view.memory_usage": "内存使用率:",
+  "application.main_window.main_view.disk_usage": "磁盘使用率:",
+  "application.main_window.main_view.news.title": "最新消息",
+  "application.main_window.main_view.news.loading": "加载新闻中...",
+  "application.main_window.main_view.news.error": "在加载新闻过程中遇到了一个错误：{0}",
+  "application.main_window.main_view.create_new_server": "创建新的服务器实例",
+  "application.main_window.main_view.import_server": "从外部服务器实例导入",
+  "application.main_window.settings_view.title": "AtomServerManager - 设置",
+  "application.main_window.settings_view.next_time_apply": "*这些设置可能仅在下次启动 AtomServerManager 时生效",
+  "application.main_window.settings_view.menus.general": {
+    "title": "通用",
+    "proxy": {
+      "title": [
+        "代理",
+        "设置 AtomServerManager 全局代理"
+      ]
+    }
+  },
+  "application.main_window.settings_view.menus.appearance": {
+    "title": "外观",
+    "background_image": {
+      "title": [
+        "设置背景图片",
+        "设置 AtomServerManager 的背景图片，或是设置为全透明"
+      ],
+      "buttons": {
+        "image": "自定义图片",
+        "transparent": "透明"
+      },
+      "errors": {
+        "not_a_image": "选定文件不是图片"
+      }
+    },
+    "language": {
+      "title": [
+        "设置语言",
+        "设置 AtomServerManager 的界面语言"
+      ],
+      "text_field": {
+        "placeholder": "选择一个语言"
+      }
+    },
+    "opacity": {
+      "title": [
+        "设置面板不透明度",
+        "为顶层面板设置不透明度"
+      ]
+    }
+  },
+  "application.main_window.settings_view.menus.download": {
+    "title": "下载",
+    "disable_verify": {
+      "title": [
+        "禁用文件资源完整性校验",
+        "当从网络下载文件时，将忽略文件完整性校验，这可能导致一些问题"
+      ]
+    }
+  },
+  "application.main_window.add_new_server_view.instance_name.default": "新建服务器实例#{0}",
+  "application.main_window.add_new_server_view.title": "AtomServerManager - 新建服务器实例向导",
+  "application.main_window.add_new_server_view.step_1.title": "选择一个要部署的服务器核心",
+  "application.main_window.add_new_server_view.step_1.filters.mod_loader": "筛选模组加载器:",
+  "application.main_window.add_new_server_view.step_1.filters.plugin_loader": "筛选插件加载器:",
+  "application.main_window.add_new_server_view.step_1.filters.filter_type": "筛选核心类型:",
+  "application.main_window.add_new_server_view.step_1.filters.not_found": "在指定筛选条件下未找到合适的服务端核心",
+  "application.main_window.add_new_server_view.step_1.supported_plugin_loader": "支持的插件加载器:",
+  "application.main_window.add_new_server_view.step_1.no_supported_plugin_loader": "不支持任何插件加载器",
+  "application.main_window.add_new_server_view.step_1.supported_mod_loader": "支持的模组加载器:",
+  "application.main_window.add_new_server_view.step_1.no_supported_mod_loader": "不支持任何模组加载器",
+  "application.main_window.add_new_server_view.step_1.supported_provider": "{0} 个下载源提供基本核心下载支持",
+  "application.main_window.add_new_server_view.step_1.support_patcher": "支持资源下载加速",
+  "application.main_window.add_new_server_view.step_1.not_support_patcher": "不支持资源下载加速",
+  "application.main_window.add_new_server_view.step_1.supported_addons": "支持的 Addon:",
+  "application.main_window.add_new_server_view.step_1.known_upstreams": "已知的上游核心:",
+  "application.main_window.add_new_server_view.step_2.title": "为 {0} 选择下载源",
+  "application.main_window.add_new_server_view.step_3.title": "为 {0} 选择下载版本",
+  "application.main_window.add_new_server_view.step_3.select_version": "选择版本",
+  "application.main_window.add_new_server_view.step_3.select_build": "选择核心构建版本",
+  "application.main_window.add_new_server_view.step_3.details": {
+    "title": "详细数据",
+    "loading": "加载详细数据中...",
+    "error": "在加载详细数据时遇到了一个意外错误"
+  },
+  "application.main_window.add_new_server_view.step_4.title": "额外设定",
+  "application.main_window.add_new_server_view.step_4.specify_instance_name": "指定服务器实例名称",
+  "application.main_window.add_new_server_view.step_4.select_resource_patcher": "选择一个资源下载加速源",
+  "application.main_window.add_new_server_view.step_4.select_addons": "选择一个或多个 Addon",
+  "application.main_window.add_new_server_view.step_5.finish": [
+    "感谢您的耐心等待，我们已完成所有部署服务端实例所必须数据的收集",
+    "点击 \"{0}\" 以开始部署，这可能需要网络连接，过程中请耐心等待"
+  ],
+  "application.main_window.add_new_server_view.step_6.download_progress": "下载进度",
+  "application.main_window.add_new_server_view.step_6.finish": "下载已完成，点击 \"{0}\" 以继续",
+  "application.main_window.add_new_server_view.step_6.verify_failed": "文件校验失败",
+  "application.main_window.add_new_server_view.step_7.title": "设置 {0} 实例属性",
+  "application.main_window.add_new_server_view.step_7.select_java": "选择 Java 运行时",
+  "application.main_window.add_new_server_view.step_7.set_max_memory": "设置最大内存",
+  "application.main_window.add_new_server_view.step_7.set_min_memory": "设置最小内存",
+  "application.main_window.add_new_server_view.step_7.jvm_options": "设置 JVM 参数",
+  "application.main_window.add_new_server_view.step_7.application_options": "设置应用参数",
+  "application.main_window.add_new_server_view.step_7.do_use_aikars_flag": "使用 Aikar's Flag",
+  "application.main_window.add_new_server_view.step_7.preview_java_command_line": "预览 Java 命令行",
+  "next.text": "下一步",
+  "previous.text": "上一步",
+  "finish.text": "完成",
+  "skip.text": "跳过",
+  "host.text": "主机",
+  "port.text": "端口",
+  "none.text": "无",
+  "bit.text": "位",
+  "data.paper_mc_data.build": {
+    "project_name": "名称",
+    "version": "版本",
+    "build": "构建版本",
+    "time": "发布时间",
+    "channel": "服务管道",
+    "channel.default": "默认",
+    "channel.experimental": "试验版",
+    "changes": "更新内容",
+    "download.application": {
+      "name": "核心名称",
+      "sha256": "消息摘要(SHA256)"
+    }
+  },
+  "data.server_jars_data.details_response": {
+    "version": "版本",
+    "file": "核心名称",
+    "md5": "消息摘要(MD5)",
+    "built": "构建时间",
+    "stability": "稳定性",
+    "stability.stable": "稳定",
+    "stability.unstable": "不稳定",
+    "stability.snapshot": "快照"
+  },
+  "data.server_jars_data.sponge_detail": {
+    "group": "Group ID",
+    "artifact": "Artifact ID",
+    "version": "版本",
+    "minecraft": "Minecraft 版本",
+    "api": "API 版本",
+    "forge": "Forge 版本",
+    "commits": "更新内容",
+    "recommend": "是否为推荐版本"
+  },
+  "core.type": {
+    "server": "服务端",
+    "proxy": "代理"
+  }
+}

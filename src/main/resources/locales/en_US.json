@@ -1,0 +1,158 @@
+{
+  "application.tray.tooltip.title": "AtomServerManager - {0} server(s) running",
+  "application.tray.tooltip.notification.minimize_to_tray": {
+    "title": "AtomServerManager has been minimized to the tray",
+    "message": "You can restore it by clicking the tray icon"
+  },
+  "application.main_window.main_view.title": "AtomServerManager - Main Window",
+  "application.language_change_dialog.title": "Choose a language to continue",
+  "application.main_window.main_view.cpu_usage": "CPU Usage:",
+  "application.main_window.main_view.memory_usage": "Memory Usage:",
+  "application.main_window.main_view.disk_usage": "Disk Usage:",
+  "application.main_window.main_view.news.title": "News",
+  "application.main_window.main_view.news.loading": "Loading news...",
+  "application.main_window.main_view.news.error": "There's an error occurred during loading the news：{0}",
+  "application.main_window.main_view.create_new_server": "Create new server instance",
+  "application.main_window.main_view.import_server": "Import from external server instance",
+  "application.main_window.settings_view.title": "AtomServerManager - Settings",
+  "application.main_window.settings_view.next_time_apply": "*May be applied when next time open AtomServerManager",
+  "application.main_window.settings_view.menus.general": {
+    "title": "General",
+    "proxy": {
+      "title": [
+        "Proxy",
+        "Set general proxy of AtomServerManager"
+      ]
+    }
+  },
+  "application.main_window.settings_view.menus.appearance": {
+    "title": "Appearance",
+    "background_image": {
+      "title": [
+        "Background Image",
+        "Set the background image of AtomServerManager, or else set to transparent."
+      ],
+      "buttons": {
+        "image": "Custom Image",
+        "transparent": "Transparent"
+      },
+      "errors": {
+        "not_a_image": "Selected file is not an image."
+      }
+    },
+    "language": {
+      "title": [
+        "Language",
+        "Set the language of AtomServerManager."
+      ],
+      "text_field": {
+        "placeholder": "Choose a language"
+      }
+    },
+    "opacity": {
+      "title": [
+        "Opacity",
+        "Set the opacity for the top panel."
+      ]
+    }
+  },
+  "application.main_window.settings_view.menus.download": {
+    "title": "Download",
+    "disable_verify": {
+      "title": [
+        "Disable file resource integrity verify",
+        "When downloading files from internet, the file verify check will be ignored, which may cause some problems"
+      ]
+    }
+  },
+  "application.main_window.add_new_server_view.instance_name.default": "New Server Instance #{0}",
+  "application.main_window.add_new_server_view.title": "AtomServerManager - Add New Server Guide",
+  "application.main_window.add_new_server_view.step_1.title": "Choose a server core to deploy",
+  "application.main_window.add_new_server_view.step_1.filters.mod_loader": "Filter mod loader(s):",
+  "application.main_window.add_new_server_view.step_1.filters.plugin_loader": "Filter plugin loader(s):",
+  "application.main_window.add_new_server_view.step_1.filters.filter_type": "Filter core type(s):",
+  "application.main_window.add_new_server_view.step_1.filters.not_found": "No core found through your filter",
+  "application.main_window.add_new_server_view.step_1.supported_plugin_loader": "Supported plugin loader(s):",
+  "application.main_window.add_new_server_view.step_1.no_supported_plugin_loader": "Not support any plugin loader",
+  "application.main_window.add_new_server_view.step_1.supported_mod_loader": "Supported mod loader(s):",
+  "application.main_window.add_new_server_view.step_1.no_supported_mod_loader": "Not support any mod loader",
+  "application.main_window.add_new_server_view.step_1.supported_provider": "{0} provider(s) provide basic core download",
+  "application.main_window.add_new_server_view.step_1.support_patcher": "Support resource download acceleration",
+  "application.main_window.add_new_server_view.step_1.not_support_patcher": "Not support resource download acceleration",
+  "application.main_window.add_new_server_view.step_1.supported_addons": "Supported Addon(s):",
+  "application.main_window.add_new_server_view.step_1.known_upstreams": "Known upstream(s):",
+  "application.main_window.add_new_server_view.step_2.title": "Choose a provider for {0}",
+  "application.main_window.add_new_server_view.step_3.title": "Choose a version to download for {0}",
+  "application.main_window.add_new_server_view.step_3.select_version": "Choose version",
+  "application.main_window.add_new_server_view.step_3.select_build": "Choose core build version",
+  "application.main_window.add_new_server_view.step_3.details": {
+    "title": "Details",
+    "loading": "Loading Details...",
+    "error": "Error occurred when loading details"
+  },
+  "application.main_window.add_new_server_view.step_4.title": "Extra Settings",
+  "application.main_window.add_new_server_view.step_4.specify_instance_name": "Specify instance name",
+  "application.main_window.add_new_server_view.step_4.select_resource_patcher": "Select resource patcher",
+  "application.main_window.add_new_server_view.step_4.select_addons": "Select Addon(s)",
+  "application.main_window.add_new_server_view.step_5.finish": [
+    "Thanks for waiting, it's all done now",
+    "Click \"{0}\" to start deploy, internet connection is required, please wait during the process"
+  ],
+  "application.main_window.add_new_server_view.step_6.download_progress": "Download progress",
+  "application.main_window.add_new_server_view.step_6.finish": "Download finished，click \"{0}\" to continue",
+  "application.main_window.add_new_server_view.step_6.verify_failed": "File verification failed",
+  "application.main_window.add_new_server_view.step_7.title": "Set {0} instance properties",
+  "application.main_window.add_new_server_view.step_7.select_java": "Select Java runtime",
+  "application.main_window.add_new_server_view.step_7.set_max_memory": "Set max memory",
+  "application.main_window.add_new_server_view.step_7.set_min_memory": "Set min memory",
+  "application.main_window.add_new_server_view.step_7.jvm_options": "Set JVM option(s)",
+  "application.main_window.add_new_server_view.step_7.application_options": "Set application option(s)",
+  "application.main_window.add_new_server_view.step_7.do_use_aikars_flag": "Use Aikar's Flag",
+  "application.main_window.add_new_server_view.step_7.preview_java_command_line": "Preview Java command line",
+  "next.text": "Next",
+  "previous.text": "Previous",
+  "finish.text": "Finish",
+  "skip.text": "Skip",
+  "host.text": "Host",
+  "port.text": "Port",
+  "none.text": "None",
+  "bit.text": "Bit",
+  "data.paper_mc_data.build": {
+    "project_name": "Name",
+    "version": "Version",
+    "build": "Build",
+    "time": "Release Time",
+    "channel": "Channel",
+    "channel.default": "Default",
+    "channel.experimental": "Experimental",
+    "changes": "Changes",
+    "download.application": {
+      "name": "Server Core Name",
+      "sha256": "Message Digest(SHA256)"
+    }
+  },
+  "data.server_jars_data.details_response": {
+    "version": "Version",
+    "file": "Server Core Name",
+    "md5": "Message Digest(MD5)",
+    "built": "Build Time",
+    "stability": "Stability",
+    "stability.stable": "Stable",
+    "stability.unstable": "Unstable",
+    "stability.snapshot": "Snapshot"
+  },
+  "data.server_jars_data.sponge_detail": {
+    "group": "Group ID",
+    "artifact": "Artifact ID",
+    "version": "Version",
+    "minecraft": "Minecraft Version",
+    "api": "API Version",
+    "forge": "Forge Version",
+    "commits": "Commits",
+    "recommend": "Recommended"
+  },
+  "core.type": {
+    "server": "Server",
+    "proxy": "Proxy"
+  }
+}

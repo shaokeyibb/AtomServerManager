@@ -1,0 +1,14 @@
+{
+  "locale": "en_US",
+  "background": {
+    "imageType": 0,
+    "image": "C:\\Users\\shaok\\OneDrive\\图片\\本机照片\\64856655_p0.jpg"
+  },
+  "opacity": 0.8,
+  "proxy": {
+    "type": "HTTP",
+    "host": "127.0.0.1",
+    "port": 1080
+  },
+  "disableVerify": false
+}

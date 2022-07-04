@@ -1,0 +1,3 @@
+package io.hikarilan.atomservermanager.servers
+
+interface TechnicalAliasVisitor

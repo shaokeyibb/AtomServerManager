@@ -1,0 +1,10 @@
+[
+  {
+    "core": "SpongeForge",
+    "version": "1.16.5",
+    "build": "1.16.5-36.2.5-8.1.0-RC1153",
+    "addons": [],
+    "name": "New Server Instance #0",
+    "command_line": "D:\\ProgramData\\.jdks\\openjdk-17.0.2\\bin\\java.exe -Xms10G -Xmx10G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis\u003d200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent\u003d30 -XX:G1MaxNewSizePercent\u003d40 -XX:G1HeapRegionSize\u003d8M -XX:G1ReservePercent\u003d20 -XX:G1HeapWastePercent\u003d5 -XX:G1MixedGCCountTarget\u003d4 -XX:InitiatingHeapOccupancyPercent\u003d15 -XX:G1MixedGCLiveThresholdPercent\u003d90 -XX:G1RSetUpdatingPauseTimePercent\u003d5 -XX:SurvivorRatio\u003d32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold\u003d1 -Dusing.aikars.flags\u003dhttps://mcflags.emc.gs -Daikars.new.flags\u003dtrue -jar \"New Server Instance #0\\spongeforge-1.16.5-36.2.5-8.1.0-RC1153.jar\" "
+  }
+]
